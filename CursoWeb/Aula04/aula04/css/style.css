@@ -33,7 +33,7 @@ url(../img/Logo-M.png) no-repeat ; font-size: 0;}
 .sobre img{width: 50%; float: left; margin: 0 15px 15px 0;}
 .sobre p{text-align: justify;}
 /* ASIDE - CONTEÚDOS RELACIONADOS */
-.assuntos-relacionados{width: 30%; float: right;padding: 10px 20px; background-color: blanchedalmond;}
+.assuntos-relacionados{width: 30%; float: right;padding: 10px 20px; background-color: white;}
 .assuntos-relacionados h2{margin: 10px; font-size: 1.1em;}
 .assuntos-relacionados ol{padding: 20px;}
 .assuntos-relacionados ol li{margin: 3px;}
