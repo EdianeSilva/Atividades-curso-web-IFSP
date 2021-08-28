@@ -5,14 +5,14 @@ img{max-width: 100%;}
 ul{list-style: none;}
 a{text-decoration: none;}
 h2{font-size: 1.5em; color: black;}
-p{font-size: 1em; color: white;}
+p{font-size: 1em; color: black;}
 /* CABEÇALHO */
-.cabecalho{ width: 100%; float: left; padding: 50px 8%; background-color: rgb(164, 81, 160);}
+.cabecalho{ width: 100%; float: left; padding: 50px 8%; background-color: rgb(245, 209, 243);}
 .logo a{width: 149px; height: 71px; float: left; background: 
 url(../img/Logo-M.png) no-repeat ; font-size: 0;}
 .cabecalho form{ width: 30%; float: right;}
 .cabecalho input[type="text"]{ width: 85%; float: left;padding: 15px 10px; border-radius: 5px 0 0 5px;}
-.cabecalho button{width: 15%; float: right; padding: 15px 10px;background-color: rgb(240, 139, 243);
+.cabecalho button{width: 15%; float: right; padding: 15px 10px;background-color: rgb(198, 156, 199);
  color: white; cursor: pointer; border-radius: 0 5px 5px 0;}
 /* MENU */
 .menu{width: 100%; float: left; background-color: rgb(140, 58, 136); padding: 18px 8%;}
@@ -37,8 +37,8 @@ url(../img/Logo-M.png) no-repeat ; font-size: 0;}
 .assuntos-relacionados h2{margin: 10px; font-size: 1.1em;}
 .assuntos-relacionados ol{padding: 20px;}
 .assuntos-relacionados ol li{margin: 3px;}
-.assuntos-relacionados ol li:hover{color: rgb(226, 126, 225);}
-.assuntos-relacionados a{color:black;text-decoration: none;}
+.assuntos-relacionados ol li:hover{color: rgb(226, 214, 126);}
+.assuntos-relacionados a{color:rgb(64, 20, 98);text-decoration: none;}
 
 /* FOOTER - RODAPÉ DO SITE */
 .rodape{width: 100%; float: left; background-color: rgb(140, 58, 136); padding: 20px 8%;}
