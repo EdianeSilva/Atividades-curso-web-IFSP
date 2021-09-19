@@ -8,23 +8,21 @@
     border: none; 
     outline: none;
 }
-
-
 /* CABEÇALHO */
 .cabecalho{ 
     width: 100%; 
     float: left; 
     padding: 50px 8%;
     background-color: rgb(193, 233, 228);
-    border-radius: 10px;
+    border-radius: 30px;
     margin: auto;
     }
 .cabecalho form{ 
-    width: 20%; 
+    width: 30%; 
     float: right;
 }
 .cabecalho input[type="text"]{ 
-    width: 85%; 
+    width: 90%; 
     float: left;
     padding: 15px 10px;
     border-radius:5px 0 0 5px;
@@ -42,16 +40,16 @@
     margin: auto;
 }
 /* ICONES DE REDES SOCIAIS */
+/* ICONES DE REDES SOCIAIS */
 .icones-redes-sociais{float: right;}
-.icones-redes-sociais a{
-    color: white;
+.icones-redes-sociais a{color: teal;
     float: left;
-    margin-left: 15px;
+    margin-left: 30px;
 }
-.btn-facebook:hover{color: rgb(0,4,255); margin: auto;}
-.btn-instagram:hover{color: rgb(216, 11, 243); margin: auto;}
-.btn-whatsapp:hover{color: rgb(41, 236, 96); margin: auto;}
-.btn-youtube:hover{color: rgb(241, 9, 40); margin: auto;}
+.btn-facebook:hover{color: rgb(0,4,255);}
+.btn-instagram:hover{color: rgb(216, 11, 243);}
+.btn-whatsapp:hover{color: rgb(41, 236, 96);}
+.btn-youtube:hover{color: rgb(241, 9, 40);}
 .btn-floating{ margin-right: 30px;}
 /* section main*/
 section.main{
