@@ -1,0 +1,129 @@
+/* RESET - COMPORTAMENTO INICIAL */
+*{
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    font-family: poppins, sans-serif; 
+    box-sizing: border-box; 
+    border: none; 
+    outline: none;
+}
+
+
+/* CABEÇALHO */
+.cabecalho{ 
+    width: 100%; 
+    float: left; 
+    padding: 50px 8%;
+    background-color: rgb(193, 233, 228);
+    border-radius: 10px;
+    margin: auto;
+    }
+.cabecalho form{ 
+    width: 20%; 
+    float: right;
+}
+.cabecalho input[type="text"]{ 
+    width: 85%; 
+    float: left;
+    padding: 15px 10px;
+    border-radius:5px 0 0 5px;
+    color: teal;
+    margin: auto;
+}
+.cabecalho button{
+    width: 15%; 
+    float: right; 
+    padding: 15px 10px;
+    background-color: rgb(108, 199, 182);
+    color: white; 
+    cursor: pointer; 
+    border-radius: 0 5px 5px 0;
+    margin: auto;
+}
+/* ICONES DE REDES SOCIAIS */
+.icones-redes-sociais{float: right;}
+.icones-redes-sociais a{
+    color: white;
+    float: left;
+    margin-left: 15px;
+}
+.btn-facebook:hover{color: rgb(0,4,255); margin: auto;}
+.btn-instagram:hover{color: rgb(216, 11, 243); margin: auto;}
+.btn-whatsapp:hover{color: rgb(41, 236, 96); margin: auto;}
+.btn-youtube:hover{color: rgb(241, 9, 40); margin: auto;}
+.btn-floating{ margin-right: 30px;}
+/* section main*/
+section.main{
+    background-image: url('https://image.freepik.com/fotos-gratis/fundo-de-tecnologia-de-wireframe-abstrato-cinza_53876-101941.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main_cta{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+.main_cta h2{
+    color: teal;
+    font-size: 40px;
+}
+.main_cta p{
+    color: teal;
+    font-size: 19px;
+    margin: 10px 0;
+}
+.main_cta button{
+    background-color:green ;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+}
+.diferencial-single{
+    border-radius: 10px;
+    background-color: rgb(193, 233, 228);
+    width: 23%;
+    margin-right: 2%;
+    padding: 10px 5px;
+}
+.diferencial-single i{
+    color: teal;
+    font-size: 23px;
+}
+.diferencial-single h2{
+    color: rgb(51, 48, 48);
+    margin: 10px 0;
+    font-size: 17px;
+}
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+.diferencial-single li{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;   
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+}
