@@ -14,7 +14,7 @@
     float: left; 
     padding: 50px 8%;
     background-color: rgb(193, 233, 228);
-    border-radius: 30px;
+    border-radius: 10px;
     margin: auto;
     }
 .cabecalho form{ 
@@ -22,29 +22,30 @@
     float: right;
 }
 .cabecalho input[type="text"]{ 
-    width: 90%; 
+    width: 85%; 
     float: left;
-    padding: 15px 10px;
-    border-radius:5px 0 0 5px;
+    padding: 5px 5px;
+    border-radius:5px 5px 5px 5px;
     color: teal;
-    margin: auto;
+
+    background-color: rgb(221, 233, 232);
 }
 .cabecalho button{
     width: 15%; 
     float: right; 
-    padding: 15px 10px;
-    background-color: rgb(108, 199, 182);
+    padding: 10px 5px;
+    background-color: rgb(198, 231, 227);
     color: white; 
     cursor: pointer; 
-    border-radius: 0 5px 5px 0;
-    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+ 
 }
 /* ICONES DE REDES SOCIAIS */
 /* ICONES DE REDES SOCIAIS */
 .icones-redes-sociais{float: right;}
 .icones-redes-sociais a{color: teal;
     float: left;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 .btn-facebook:hover{color: rgb(0,4,255);}
 .btn-instagram:hover{color: rgb(216, 11, 243);}
