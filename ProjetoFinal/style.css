@@ -13,9 +13,8 @@
     width: 100%; 
     float: left; 
     padding: 50px 8%;
-    background-color: rgb(193, 233, 228);
-    border-radius: 10px;
     margin: auto;
+    background-image: url('img/fundo4.jpg');
     }
 .cabecalho form{ 
     width: 30%; 
@@ -24,8 +23,8 @@
 .cabecalho input[type="text"]{ 
     width: 85%; 
     float: left;
-    padding: 5px 5px;
-    border-radius:5px 5px 5px 5px;
+    padding: 5px;
+    border-radius:5px;
     color: teal;
 
     background-color: rgb(221, 233, 232);
@@ -37,7 +36,7 @@
     background-color: rgb(198, 231, 227);
     color: white; 
     cursor: pointer; 
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
  
 }
 /* ICONES DE REDES SOCIAIS */
@@ -51,7 +50,6 @@
 .btn-instagram:hover{color: rgb(216, 11, 243);}
 .btn-whatsapp:hover{color: rgb(41, 236, 96);}
 .btn-youtube:hover{color: rgb(241, 9, 40);}
-.btn-floating{ margin-right: 30px;}
 /* section main*/
 section.main{
     background-image: url('https://image.freepik.com/fotos-gratis/fundo-de-tecnologia-de-wireframe-abstrato-cinza_53876-101941.jpg');
@@ -84,6 +82,7 @@ section.main{
     font-size: 16px;
     border: 0;
     cursor: pointer;
+    
 }
 .diferenciais{
     display: flex;
@@ -124,5 +123,6 @@ section.main{
         width: 100%;
         margin-bottom: 20px;
         margin: auto;
+        margin-bottom: 20PX;
     }
 }
