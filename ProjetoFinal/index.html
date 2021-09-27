@@ -12,29 +12,40 @@
   <script src="https://kit.fontawesome.com/d65abf7a39.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- icon-->
-  <link rel="shortcut icon" href="img/logo500p-png.png">
+  <link rel="shortcut icon" href="img/apple-touch-icon.png">
   <title>Green Edificações</title>
 </head>
 <body>
+<!-- menu-->
+<footer>
+  <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"></a>
+        <a href="#" data-target="mobile-links" class="sidenav-trigger">
+          <i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="contato.html">CONTATO</a></li>
+          <li><a href="servicos.html">SERVIÇOS</a></li>
+          <li><a href="index.html">INÍCIO</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav cyan" id="mobile-links">
+      <li><a href="contato.html">CONTATO</a></li>
+      <li><a href="servicos.html">SERVIÇOS</a></li>
+      <li><a href="index.html">INÍCIO</a></li>
+    </ul>
+  </footer>
   <!-- inicio do cabecalho-->
   <header class="cabecalho">
     <form method="POST">
-      <input type="text" placeholder="Faça sua busca aqui">
-      <button><i class="fas fa-search z-depth-5"></i></button>
+      <input type="text" placeholder="Pesquisar">
+      <button><i class="fas fa-search"></i></button>
     </form>
-    <div class="col s12 m8 offset-m2 l6 offset-l3">
-      <div class="card-panel grey lighten-5 z-depth-2">
-        <div class="row valign-wrapper">
-          <div class="col s4">
-            <img src="img/logo500p-png.png" alt="" class="responsive-img">
+          <div class="col s12 m6 l4">
+            <img src="img/log200png.png" alt="" class="responsive-img">
           </div>
-          <div class="col s6">
-            <span class="center indigo-text">
-               <h5> Sonhe, planeje e Concretize!</h5>
-            </span>
-            <br>
-            <div class="col s12 m8 offset-m2 l6 offset-l3"></div>
-            <div class="col s4"></div>
+            <div class="col s12 m6 l4">
             <div class="icones-redes-sociais">
               <a href="#" class="btn-facebook btn-flat"> <i class="fab fa-facebook-square"></i> </a>
               <a href="#" class="btn-instagram btn-flat"> <i class="fab fa-instagram"></i> </a>
@@ -42,16 +53,12 @@
               <a href="#" class="btn-youtube btn-flat"> <i class="fab fa-youtube-square"></i> </a>
             </div> 
           </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
   <section class="main">
     <div class="center">
       <div class="main_cta">
-        <h2>Tornamos seus sonhos realidade</h2>
-        <p> Aproveite!</p>
+        <h2>Green Edificações</h2>
+        <h3>Sonhe, planeje e Concretize!</h3>
         <button> Faça seu orçamento</button>
       </div><!-- main_cta -->
       <div class="diferenciais">
@@ -101,7 +108,8 @@
 </section><!-- main -->
 <!-- Tres Card , com soluções, perfil, e missão declarada -->   
     <div class="row">
-      <div class="col s12 m4">
+      <div class="col s12 m6 l4">
+        <div class="card-panel hoverable">
         <div class="icon-block grey lighten-3">
           <h2 class="center blue-grey-text"><i class="large material-icons">engineering</i></h2>
           <h5 class="center grey">Soluções</h5>
@@ -109,7 +117,9 @@
             principais da sustentabilidade, a Green Edificações gera valores aos clientes, parceiros e comunidades.</p>
         </div>
       </div>
-      <div class="col s12 m4">
+    </div>
+      <div class="col s12 m6 l4">
+        <div class="card-panel hoverable">
         <div class="icon-block grey lighten-3">
           <h2 class="center blue-grey-text"><i class="large material-icons">group</i></h2>
           <h5 class="center grey">Perfil corporativo</h5>
@@ -118,7 +128,9 @@
           </p>
         </div>
       </div>
-      <div class="col s12 m4">
+    </div>
+      <div class="col s12 m6 l4">
+        <div class="card-panel hoverable">
         <div class="icon-block grey lighten-3">
           <h2 class="center blue-grey-text"><i class="large material-icons">location_city</i></h2>
           <h5 class="center grey">Missão</h5>
@@ -126,23 +138,32 @@
         </div>
       </div>
     </div>
+  </div>
+    <br>
+    <br>
  <!-- Card 2 , com fotos do trabalhos -->
 <div class="row">
-  <div class="col s6 push-s3">
-    <div class="card center-align">
+  <div class="col s12 m6 l4">
+    <div class="card-panel hoverable">
+    <h4 class="header white-text">Green Edificações</h4>
+    <div class="card horizontal">
       <div class="card-image">
-        <img src="img/residence.webp">
-        <span class="card-title white-text">CONHEÇA NOSSOS TRABALHOS</span>
-        <a class="btn-floating halfway-fab waves-effect waves-light teal  btn-floating pulse"><i class="material-icons">add</i></a>
+        <img src="https://cdn.pixabay.com/photo/2013/12/03/23/01/date-palm-223249__340.jpg">
       </div>
-      <div class="card-content">
-        <p>Transparência, sinceridade e profissionalismo são preceitos fundamentais.</p>
+      <div class="card-stacked">
+        <div class="card-content center-align">
+          <p> O justo florescerá como a palmeira; crescerá como o cedro no Líbano.
+            Os que estão plantados na casa do Senhor florescerão nos átrios do nosso Deus.
+            Na velhice ainda darão frutos; serão viçosos e vigorosos,
+            Para anunciar que o Senhor é reto. Ele é a minha rocha e nele não há injustiça.<br>
+             Salmos 92:12-15</p>
+        </div>
+          <a href="https://www.bibliaonline.com.br/acf/busca?q=Salmos+92"> Leia  a  Bíblia</a>
       </div>
     </div>
   </div>
 </div>
-<br>
-<br>
+</div>
 <!-- conteúdo do rodapé -->
   <footer class="page-footer teal">
     <div class="container">
@@ -187,4 +208,10 @@
 <!-- Materialize JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+<script>
+
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
 </html>

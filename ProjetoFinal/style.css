@@ -8,51 +8,60 @@
     border: none; 
     outline: none;
 }
+/* BARRA DE ROLAGEM */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: teal;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#45f3ff;
+    border-radius: 10px;
+}
 /* CABEÇALHO */
 .cabecalho{ 
     width: 100%; 
-    float: left; 
-    padding: 50px 8%;
-    margin: auto;
-    background-image: url('img/fundo4.jpg');
+    padding: 50px 15%;
+    background-image: url('https://cdn.pixabay.com/photo/2021/08/10/18/16/green-6536646__480.png');   
+    
     }
-.cabecalho form{ 
-    width: 30%; 
-    float: right;
-}
-.cabecalho input[type="text"]{ 
-    width: 85%; 
-    float: left;
-    padding: 5px;
-    border-radius:5px;
-    color: teal;
+    .cabecalho form{ width: 20%; float: right;}
+    .cabecalho input[type="text"]{
+         width: 100%; 
+         float: left;
+         padding: 5px 5px; 
+         border-radius: 3px;
+         font-size: 15px;
+         color: white;
+        }
+    .cabecalho button{width: 15%;
+        float:right;
+        padding:5px 15px;
+        border-radius: 2px;
+        color: teal;
+        background-color: #a5d6a7;
+        cursor: pointer;}
 
-    background-color: rgb(221, 233, 232);
+.cabecalho img{
+    filter: drop-shadow(3px 3px 3px #66bcc2);
+    
 }
-.cabecalho button{
-    width: 15%; 
-    float: right; 
-    padding: 10px 5px;
-    background-color: rgb(198, 231, 227);
-    color: white; 
-    cursor: pointer; 
-    border-radius: 10px;
- 
-}
-/* ICONES DE REDES SOCIAIS */
 /* ICONES DE REDES SOCIAIS */
 .icones-redes-sociais{float: right;}
-.icones-redes-sociais a{color: teal;
-    float: left;
-    margin-left: 5px;
+.icones-redes-sociais a{color:#45f3ff;
+    float: center;
+    margin-left: 15px;
+    
 }
 .btn-facebook:hover{color: rgb(0,4,255);}
 .btn-instagram:hover{color: rgb(216, 11, 243);}
-.btn-whatsapp:hover{color: rgb(41, 236, 96);}
+.btn-whatsapp:hover{color: rgb(53, 193, 92);}
 .btn-youtube:hover{color: rgb(241, 9, 40);}
 /* section main*/
 section.main{
-    background-image: url('https://image.freepik.com/fotos-gratis/fundo-de-tecnologia-de-wireframe-abstrato-cinza_53876-101941.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2014/02/16/06/46/abstract-267046__340.png');
     padding: 70px 0;
     background-position: center;
     background-size: cover;
@@ -64,65 +73,186 @@ section.main{
     margin: 50px 0;
     text-align: center;
 }
-.main_cta h2{
+.main_cta h2, h3{
     color: teal;
     font-size: 40px;
-}
-.main_cta p{
-    color: teal;
-    font-size: 19px;
-    margin: 10px 0;
+    margin: 50px;
+    filter: drop-shadow(3px 3px 3px #4a8966);
+
 }
 .main_cta button{
-    background-color:green ;
     display: inline-block;
-    padding: 8px 30px;
-    color: white;
+    padding: 8px 25px;
+    color: teal;
     border-radius: 6px;
-    font-size: 16px;
-    border: 0;
+    font-size: 15px;
     cursor: pointer;
-    
+
+    background: linear-gradient(#89b0d6, #90d0c9); 
 }
 .diferenciais{
     display: flex;
     flex-wrap: wrap;
+    filter: drop-shadow(5px 5px 5px #45f3ff);
 }
 .diferencial-single{
     border-radius: 10px;
-    background-color: rgb(193, 233, 228);
+    background-image: repeating-radial-gradient( #41e0e7 10%, #3aac88);
     width: 23%;
     margin-right: 2%;
     padding: 10px 5px;
 }
 .diferencial-single i{
-    color: teal;
+    color: white;
     font-size: 23px;
 }
 .diferencial-single h2{
-    color: rgb(51, 48, 48);
+    color: wheat;
     margin: 10px 0;
     font-size: 17px;
 }
 .diferencial-single p{
-    color: gray;
+    color: teal;
     font-size: 14px;
     line-height: 30px;
 }
 .diferencial-single li{
-    color: gray;
+    color: teal;
     font-size: 14px;
     line-height: 30px;   
 }
-
-
-
-
+/* Css da aba contato */
+.espiral{
+    background-image: url('img/green-painel.webp');
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+}
+.container{
+width: 100%;
+padding: 10px;
+}
+.container h2{
+    width: 100%;
+    color: #45f3ff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.container .row100{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.container .row100 .col{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+.container .row100 .inputBox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color:#45f3ff;
+}
+.container .row100 .inputBox input,
+.container .row100 .inputBox.textarea textarea
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+.container .row100 .inputBox .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.container .row100 .inputBox input:focus + .text,
+.container .row100 .inputBox input:valid + .text
+{
+    top: -35px;
+    left: -10px;
+}
+.container .row100 .inputBox .line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #45f3ff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+.container .row100 .inputBox input:focus ~ .line,
+.container .row100 .inputBox input:valid ~ .line
+{
+    height: 100%;
+}
+.container .row100 .inputBox.textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0; 
+}
+.container .row100 .inputBox.textarea textarea{
+    height: 100%;
+    resize: none;
+}
+.container .row100 .inputBox textarea:focus + .text,
+.container .row100 .inputBox textarea:valid + .text
+{
+    top: -35px;
+    left: -10px;
+}
+.container .row100 .inputBox textarea:focus ~ .line,
+.container .row100 .inputBox textarea:valid ~ .line
+{
+    height: 100%;
+}
+input[type="submit"]
+{
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background: #45f3ff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 2px;
+}
+div[class="nav-wrapper"]{
+    background-image: url('https://cdn.pixabay.com/photo/2021/08/10/18/16/green-6536646__480.png');
+    border: 5px ridge rgb(193, 233, 228);
+    filter: drop-shadow(5px 5px 5px #45f3ff);
+}
+div [class="card-panel hoverable"]{
+    background-image: repeating-radial-gradient( #2eb8c7fd 10%, #3aac88);
+    filter: drop-shadow(5px 5px 5px #45f3ff);
+}
 @media screen and (max-width: 768px){
     .diferencial-single{
         width: 100%;
         margin-bottom: 20px;
         margin: auto;
-        margin-bottom: 20PX;
+        margin-bottom: 20px;
     }
 }
+
